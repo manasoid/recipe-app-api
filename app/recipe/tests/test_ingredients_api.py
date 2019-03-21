@@ -25,6 +25,7 @@ class PublicIngredientsApiTests(TestCase):
 
         self.assertEqual(res.status_code, status.HTTP_401_UNAUTHORIZED)
 
+
 class PrivateIngedientsApiTests(TestCase):
     """Test ingredients can be retrieved by authorized user"""
 
